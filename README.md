@@ -1,4 +1,4 @@
-Challenge #1 - Advanced Python Class
+<h1>Challenge #1 - Advanced Python Class</h1>
 Inventory Manager
 
 Description of this program: The company you work for receives a large amount of raw materials and other products in its inventory, which are recorded and managed on sheets of paper that describe names, quantities, prices, types and sizes of each incoming and outgoing product. Recently some sheets were lost and the decision was made to digitize this process. Given this, you are asked to develop a program in Python, in which the person in charge of recording incoming and outgoing inventories, through the terminal of the operating system, can easily make these records.
