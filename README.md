@@ -1,5 +1,5 @@
 <h1>Challenge #1 - Advanced Python Class</h1>
-Inventory Manager
+<h2>Inventory Manager</h2>
 
 Description of this program: The company you work for receives a large amount of raw materials and other products in its inventory, which are recorded and managed on sheets of paper that describe names, quantities, prices, types and sizes of each incoming and outgoing product. Recently some sheets were lost and the decision was made to digitize this process. Given this, you are asked to develop a program in Python, in which the person in charge of recording incoming and outgoing inventories, through the terminal of the operating system, can easily make these records.
 The task should be carried out using functions to add new items, update quantities and search for specific items based on various criteria. Lambda functions should be used to sort the inventory based on different attributes, such as sorting items by name, quantity or price. In addition, nested functions should be used to handle complex operations, such as generating inventory reports or calculating the total value of the inventory.
@@ -7,11 +7,11 @@ This Python file should be uploaded to a Github repository, along with a README.
 The use of functions and lambda functions to add (with different data including date with the datetime package), edit, read, and delete products from the inventory will be evaluated, that everything works correctly and that contains the README file.
 + 3 more functions
 
-+ Prerequisites
+<h3>Prerequisites</h3>
 - Have Panda and openpyxl for excel exporting (pip install panda) and (pip install openpyxl)
 - Python 3.9
 
-Usage
+<h3>Usage</h3>
 
 Start the program by running the file inventory.py
 
@@ -31,7 +31,9 @@ Once you start the program, the following menu will appear
 
 Find below the description of each of them:
 
-1-. Add Product: It adds to the inventory a specific product (Name, Quantity and Price). It is saved in a list of dictionaries
+<h4>1-. Add Product:</h4> 
+
+It adds to the inventory a specific product (Name, Quantity and Price). It is saved in a list of dictionaries
 Example:
 Please enter an option: 1
 Enter product's name: Plumas
@@ -44,7 +46,7 @@ Would you like to add it? Y/N
 y
 The product has been added to the inventory
 
-2-. Update Product:
+<h4>2-. Update Product:</h4>
 
 Based on an ID of a product, the name/quantity/price is updated
 
@@ -104,7 +106,7 @@ Returning to Main Menu
 Please enter an option: 6
 ID: 1, Name: Pluma, Quantity: 40, Price: 8.0
 
-3-. Search Product: 
+<h4>3-. Search Product:</h4>
 It searches a product by ID/Name/Quantity/Price
 
 Example:
@@ -159,7 +161,7 @@ Search by:
 5
 Returning to Main Menu 
 
-4-. Sort Inventory by Name/Price/Quantity:
+<h4>4-. Sort Inventory by Name/Price/Quantity:</h4>
 
 It filters the inventory based on it's name, price or quantity and tries to order them ascending/descending
 
@@ -207,7 +209,7 @@ Would you like it
 2
 [{'id': 1, 'name': 'Pluma', 'quantity': 40, 'price': 8.0}, {'id': 3, 'name': 'Marcador', 'quantity': 34, 'price': 30.0}]
 
-5-. Delete Product: Using an id, the program is able to delete a product in the inventory.
+<h4>5-. Delete Product: Using an id, the program is able to delete a product in the inventory.</h4>
 
 Example: 
 
@@ -234,17 +236,17 @@ The product with ID: 2, Name: Corrector, Quantity: 20, Price: 50.0 has been dele
 Please enter an option: 6
 ID: 1, Name: Pluma, Quantity: 40, Price: 8.0
 
-6-. Print Inventory 
+<h4>6-. Print Inventory</h4>
 Prints in the terminal the content of the inventory (the content of the dictionary)
 
 Example:
 
 ID: 1, Name: Pluma, Quantity: 40, Price: 8.0
 
-7-. Generate Inventory Report into an Excel File 
+<h4>7-. Generate Inventory Report into an Excel File</h4>
 It basically uses a panda function to convert the inventory (the dictionary we are using) into an .XLSX file. It is created in the folder where the script is executed.
 
-8-. Generate Monthly/Annual Value Inventory: 
+<h4>8-. Generate Monthly/Annual Value Inventory:</h4> 
 When selecting this option, it prints the following information based on the input (inventory given)
 Example:
 Monthly value of the inventory is: $320.0
@@ -253,4 +255,5 @@ Annual value of the inventory is: $3840.0
 Monthly Cost = It gets the costs for the products. This is obtained by multiplying the price and the quantity of the products
 Annual Cost = Monthly Value * 12
 
-9-. Exit: Terminates the program
+<h4>9-. Exit:</h4>
+ Terminates the program
